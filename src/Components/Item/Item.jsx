@@ -4,7 +4,11 @@ import './Item.css';
 const Item = (props) => {
   return (
     <div className='item'>
-      <img src={props.image} alt={props.name} />
+      <img
+        src={props.image}
+        alt={props.name}
+        className={props.id === 11 ? "image-pad" : ""}
+      />
       <p>{props.name}</p>
       <div className='item-price'>
         <div className='item-price-new'>

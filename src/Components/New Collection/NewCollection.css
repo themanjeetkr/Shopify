@@ -1,0 +1,36 @@
+.newcollection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    height: 100vh;
+    /* background: linear-gradient(180deg,#e1ffea22,#47fdae); */
+    /* background-color: #47fdae; */
+    
+
+}
+.newcollection h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+.newcollection hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+  
+    background: #252525;
+}
+
+.collection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 30px;
+
+
+}
+.newcollection img{
+    margin-right: 7px;
+    padding: 10px;
+}

@@ -36,3 +36,11 @@
     align-items: center ;
     justify-content: center;
 }
+.image-pad {
+  /* padding: 20px; */
+  /* background-color: #f5f5f5; Optional for testing */
+  /* border-radius: 10px;       Optional for better design */
+  /* margin-left: ; */
+  /* height: 10px; */
+  margin-left: 60;
+}
