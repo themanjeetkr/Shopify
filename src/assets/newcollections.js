@@ -5,7 +5,7 @@ import p7_img from '../assets/p7.png'
 import p8_img from '../assets/p8.webp'
 import p9_img from '../assets/p9.png'
 import p10_img from '../assets/p10.avif'
-import p11_img from '../assets/p11.png'
+import p11_img from '../assets/p11.jpeg'
 let new_collections = [
      { id: 5, name: "T-Shirt", category: "men", image: p5_img, new_price: 45.0, old_price: 70.0 },
         { id: 6, name: "Dress", category: "women", image: p6_img, new_price: 85.0, old_price: 130.0 },
