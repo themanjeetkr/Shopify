@@ -50,11 +50,13 @@
     color: #1a1a1a;
 
 }
+/* footer copyright section */
 .footer-copyright hr{
     width: 80%;
     border: none;
     border-radius: 10px;
     height: 3px ;
     background: #c7c7c7;
+    
 
 }
