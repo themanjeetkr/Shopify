@@ -3,6 +3,8 @@
     border: 3px solid black;
     border-top-left-radius: 40px;
     border-top-right-radius: 20px;
+    /* align-items: center; */
+
 
     
 
@@ -35,7 +37,12 @@
     height: 200px;
     align-items: center ;
     justify-content: center;
-    object-fit:fill;
+    object-fit:contain;
+    overflow: hidden;
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+    
     /* width: 50; */
 }
 .image-pad {
