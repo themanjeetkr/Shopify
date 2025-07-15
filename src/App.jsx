@@ -12,7 +12,7 @@ import kids_banner from "./assets/kids_banner.jpg"
 
 function App() {
   return (
-    <BrowserRouter> 
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Shop />} />
@@ -20,14 +20,14 @@ function App() {
         <Route path="/women" element={<ShopCategory category="women" banner={women_banner} />} />
         <Route path="/kids" element={<ShopCategory category="kid" banner={kids_banner} />} />
 
-        
+
         <Route path="/product/:productId" element={<Product />} />
 
-       
+
         <Route path="/cart" element={<Cart />} />
         <Route path="/login" element={<LoginSignUp />} />
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 }
