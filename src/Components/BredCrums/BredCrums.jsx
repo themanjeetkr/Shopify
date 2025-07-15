@@ -7,8 +7,8 @@ import arrow_icon from '../../assets/arrow_icon.png'
 const Bredcrums = ({product}) => {
     return (
         <div className='bredcrums'>
-            Home <img src={arrow_icon} alt="" height={30} /> SHOP<img src={arrow_icon} alt=""  height={30}/>
-            {product.category} <img src={arrow_icon} alt=""  height={30}/>{ product.name} <img src={arrow_icon} alt="" height={30} />
+            Home <img src={arrow_icon} alt="" height={10} /> SHOP<img src={arrow_icon} alt=""  height={10}/>
+            {product.category} <img src={arrow_icon} alt=""  height={10}/>{ product.name} <img src={arrow_icon} alt="" height={10} />
 
         </div>
     )
