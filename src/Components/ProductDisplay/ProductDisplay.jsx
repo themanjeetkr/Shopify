@@ -35,6 +35,7 @@ const ProductDisplay = ({ product }) => {
                      <div className="productdisplay-right-price-new">
                         ${product.new_price}
                      </div>
+                     {/* description */}
                      <div className="productdisplay-right-description">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores cumque v
                         oluptas, laudantium, facere asper
