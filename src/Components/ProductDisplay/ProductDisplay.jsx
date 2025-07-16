@@ -28,6 +28,7 @@ const ProductDisplay = ({ product }) => {
                     <p>(130)</p>
 
                 </div>
+                {/* prices */}
                 <div className="productdisplay-right-prices">
                     <div className="productdisplay-right-price-old">
                         ${product.old_price}
