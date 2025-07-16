@@ -42,6 +42,7 @@ const ProductDisplay = ({ product }) => {
                      </div>
                      <div className="productdisplay-right-size">
                         <h1>Select Size</h1>
+                        {/* size */}
                         <div className="productdisplay-right-size">
                             <div>S</div>
                             <div>M</div>
