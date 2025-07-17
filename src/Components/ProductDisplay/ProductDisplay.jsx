@@ -8,10 +8,10 @@ const ProductDisplay = ({ product }) => {
         <div className='productdisplay'>
             <div className='productdisplay-left'>
                 <div className='productlist-img-list'>
-                    <img src={product.image} alt='' height={200} />
-                    <img src={product.image} alt='' height={200} />
-                    <img src={product.image} alt='' height={200} />
-                    <img src={product.image} alt='' height={200} />
+                    <img src={product.image} alt='' height={150} />
+                    <img src={product.image} alt='' height={150} />
+                    <img src={product.image} alt='' height={150} />
+                    <img src={product.image} alt='' height={150} />
                 </div>
                 <div className="productdisplay-img">
                     <img className='productdisplay-main-img' src={product.image} alt="" height={500} />
@@ -35,6 +35,7 @@ const ProductDisplay = ({ product }) => {
                     </div>
                      <div className="productdisplay-right-price-new">
                         ${product.new_price}
+                     </div>
                      </div>
                      {/* description */}
                      <div className="productdisplay-right-description">
@@ -63,7 +64,7 @@ const ProductDisplay = ({ product }) => {
                      </div>
                 </div>
             </div>
-        </div>
+        
     );
 };
 
