@@ -10,8 +10,8 @@
   height: 1180px;
 }
 .productdisplay-main-img {
-  width: 450px;
-  height: 620px;
+  /* width: 450px; */
+  height: 600px;
 }
 .productdisplay-img-list {
   display: flex;
@@ -78,5 +78,25 @@
     border: 1px solid #ebebeb;
     border-radius: 3px;
     cursor: pointer;
+
+}
+.productdisplay-right button{
+    padding: 20px 40px ;
+    width: 400px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #ff4141;
+    margin-bottom: 20px;
+        border: none;
+        outline: none;
+         cursor: pointer;
+}
+.productdisplay-right-category{
+    margin-top: 10px;
+
+}
+.productdisplay-right-category span{
+    font-weight: 600;
 
 }
