@@ -5,6 +5,7 @@
 .productdisplay-left {
   display: flex;
   gap: 20px;
+  /* gap */
 }
 .productdisplay-img-list img {
   height: 1180px;
