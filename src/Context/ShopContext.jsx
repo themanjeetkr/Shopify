@@ -23,6 +23,7 @@ const ShopContextProvider = (props) => {
 
     return (
         <ShopContext.Provider value={ContextValue}>
+        
             {props.children}
         </ShopContext.Provider>
     );
