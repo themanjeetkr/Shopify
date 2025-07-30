@@ -11,6 +11,7 @@ const Hero = () => {
 
                 <div className="hero-hand-icon">
                     <p>new</p>
+{/*                     add images */}
                     <img src={hand_icon} alt="" height="60px" />
                 </div>
                 <p>collection</p>
