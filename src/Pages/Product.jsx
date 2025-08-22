@@ -18,6 +18,7 @@ const Product = () => {
 
   return (
     <div>
+    {/* bredcrums */}
       <Bredcrums product={product} />
       {/* More product content */}
       <ProductDisplay product={product}/>
