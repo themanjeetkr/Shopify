@@ -15,6 +15,7 @@ const Product = () => {
   if (!product) {
     return <div>Product not found</div>; // prevent crash
   }
+  // product section
 
   return (
     <div>
